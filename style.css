@@ -15,16 +15,19 @@ h3 {
 /* header & navigation*/
 
 header {
+
   background-color: #222324;
   display: flex;
   margin: 0 auto;
-  height: 100px;
+  max-height: 300px;
   width: 80%;
   font-family: 'Montserrat';
   margin-bottom: 25px;
   border-radius: 20px;
   margin-top: 15px;
   border: 5px solid black;
+  flex-flow: wrap;
+
 
 
 }
@@ -32,12 +35,14 @@ header {
 header ul {
     list-style: none;
     padding: 0;
+
 }
 
 header ul li {
     display: inline-block;
     margin: 0 4px;
     text-decoration: none;
+
 }
 
 .logo-container {
@@ -45,16 +50,19 @@ header ul li {
   align-self: center;
   flex: auto;
   color: white;
+
 }
 
 .logo {
   font-weight: lighter;
+
 }
 
 nav {
   flex: auto;
   align-self: center;
-  flex-wrap: wrap;
+
+
 }
 
 nav a {
@@ -62,6 +70,8 @@ nav a {
   color: white;
   font-size: 20px;
   font-weight: bold;
+  flex: auto;
+
 }
 
 nav a:hover {
@@ -75,7 +85,7 @@ nav a:hover {
   text-align: right;
   color: white;
   margin-right: 5%;
-  flex-wrap: wrap;
+
   }
 
 .icons-container .fa:hover {
@@ -92,7 +102,6 @@ nav a:hover {
   width: 80%;
   height: 500px;
   display: flex;
-  align-items: flex-start;
   font-family: 'Montserrat';
   background-image: url(images/banner-home.jpg);
   background-size: cover;
@@ -103,11 +112,12 @@ nav a:hover {
   border-radius: 20px;
   font-size: 35px;
   border: 5px solid black;
-}
+  }
 
 .banner-container h2 {
-  padding-left: 30px;
-  padding-top: 50px;
+  display: flex;
+  align-self: flex-end;
+  margin-left: 2%;
 
 }
 
