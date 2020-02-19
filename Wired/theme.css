@@ -1,0 +1,39 @@
+body {
+    color: #222324;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 300;
+}
+
+main {
+    padding: 65px 0;
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* unvisited link */
+ a:link {
+    color: #222324;
+}
+/* visited link */
+a:visited {
+    color: #222324;
+}
+/* mouse over link */
+a:hover {
+    color: #222324;
+    text-decoration: underline;
+}
+/* selected link */
+a:active {
+    color: #222324;
+}

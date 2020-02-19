@@ -1,0 +1,245 @@
+/*reset & background*/
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e6e6ff;
+  font-family: 'Montserrat';
+  border-radius: 20px;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+/* header & navigation*/
+
+header {
+  background-color: #222324;
+  display: flex;
+  margin: 0 auto;
+  height: 100px;
+  width: 80%;
+  font-family: 'Montserrat';
+  margin-bottom: 25px;
+  border-radius: 20px;
+  margin-top: 15px;
+  border: 5px solid black;
+
+
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 4px;
+    text-decoration: none;
+}
+
+.logo-container {
+  margin-left: 5%;
+  align-self: center;
+  flex: auto;
+  color: white;
+}
+
+.logo {
+  font-weight: lighter;
+}
+
+nav {
+  flex: auto;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #dab3ff;
+  color: #dab3ff;
+}
+
+.icons-container .fa {
+  align-self: flex-end;
+  flex: auto;
+  text-align: right;
+  color: white;
+  margin-right: 5%;
+  flex-wrap: wrap;
+  }
+
+.icons-container .fa:hover {
+  color: #dab3ff;
+  }
+
+  .current {
+    border-bottom: 2px solid white;
+  }
+
+  /* Banner */
+
+.banner-container {
+  width: 80%;
+  height: 500px;
+  display: flex;
+  align-items: flex-start;
+  font-family: 'Montserrat';
+  background-image: url(images/banner-home.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  color: black;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  font-size: 35px;
+  border: 5px solid black;
+}
+
+.banner-container h2 {
+  padding-left: 30px;
+  padding-top: 50px;
+
+}
+
+
+
+/* Main content */
+.aboutme {
+  margin: 0 auto;
+  width: 80%;
+}
+.image-container {
+
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background: url(images/photo.jpg) no-repeat;
+  display: block;
+  border-radius: 50%;
+  border: black solid 5px;
+  background-size: cover;
+  }
+
+
+.text-container {
+  margin: 0 auto;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.text-container h3 {
+  margin-top: 60px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.text-container p {
+  text-align: justify;
+  font-size: 20px;
+  margin: 20px;
+  display: flex;
+}
+
+/*Gallery*/
+
+.gallery ul{
+ list-style: none;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ padding-top: 40px;
+ justify-content: center;
+ padding-bottom: 40px;
+ }
+
+/*Portfolio*/
+
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+  padding-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.img-txt-container {
+  padding-top: 50px;
+}
+
+.img-container {
+margin-right: 50px;
+}
+
+.img-container:hover {
+  border: 5px solid black;
+}
+
+.txt-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.txt-container h2 {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+
+/* Contact */
+.contact-box {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+
+}
+
+.mail {
+
+  font-style: italic;
+  color: #939495;
+}
+
+
+  /* Footer */
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  }
+
+main {
+  flex: 1 0 auto;
+  }
+
+footer {
+  flex-shrink: 0;
+  background: #222324;
+  color: white;
+  text-align: center;
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 20px;
+  }

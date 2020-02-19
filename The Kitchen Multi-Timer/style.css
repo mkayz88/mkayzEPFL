@@ -1,0 +1,220 @@
+body {
+  /*Reset*/
+
+
+  /*Base*/
+  background-color: #fffcf9;
+  max-width: 800px;
+
+  margin: 0 auto;
+  display: block;
+  flex: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+  /* Typography */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  }
+
+header {
+  background-color: #06d6a0;
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  }
+
+nav {
+padding: 40px 30px 60px 200px;
+display: flex;
+margin-left: 200px;
+}
+
+nav a {
+  border: 2px solid white;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 5px 20px;
+  text-align: center;
+  display:block;
+
+
+}
+
+nav a:first-child {
+  margin-bottom: 20px;
+  ;
+}
+
+nav a:hover, nav a:focus {
+  background-color: white;
+  color: #06d6a0;
+}
+nav .current {
+  background-color: white;
+  color: #06d6a0;
+}
+
+.logo {
+  display: block;
+  margin: 40px 50px 70px;
+}
+
+ul {
+  list-style: none;
+  list-style-position: outside;
+
+}
+
+.main {
+  height: 900px;
+  max-width: 800px;
+  flex-wrap: wrap;
+  background-color: #ffd166;
+  color: #26547c;
+}
+
+.banner {
+  display: block;
+  margin: 0 auto;
+  width: 800px;
+  flex: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  max-width: 720px;
+}
+
+main p {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+}
+
+main h1 {
+    font-size: 52px;
+    text-align: center;
+    font-weight: normal;
+    padding-top: 30px;
+    line-height: 1.1;
+  }
+
+
+.reviews {
+  background-color: #26547c;
+  color: white;
+  height: 420px;
+  margin: 0 auto;
+}
+
+.reviews h2 {
+    font-size: 33px;
+    padding-left: 40px;
+    padding-top: 40px;
+    font-weight: lighter;
+  }
+
+.reviews ul {
+  font-family: 'Shadows into light';
+
+}
+
+.reviews li {
+  margin-bottom: 35px;
+  line-height: 1.5;
+  font-size: 25px;
+}
+
+
+ .maindownload {
+
+     height: 625px;
+     background-color: #ffd166;
+     color: #26547c;
+     padding: 40px;
+     margin-top: 40px;
+
+
+
+
+ }
+.download{
+  background: #ffd166 url(images/hour-glass-red.jpg) no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 300px;
+
+
+
+
+
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.download a{
+  color: #FFFCF9;
+  background-color: #06D6A0;
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.maindownload a:hover, .maindownload a:focus {
+  background-color: white;
+  color: #06d6a0;
+  }
+
+.functions ul {
+  list-style: initial;
+  margin-left: 10px;
+}
+.functions h2 {
+  font-size: 33px;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-weight: lighter;
+}
+
+/* Image Gallery */
+
+.gallery {
+  background-color: #ef476f;
+}
+
+.gallery ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery li {
+  flex: 0 0 150px;
+  height: 300px;
+  margin: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.white-watch {
+  background-image: url(images/white-wall.jpg);
+  background-position: 100% 50%;
+}
+
+.black-watch {
+  background-image: url(images/black-wall.jpg);
+  background-position: 0% 50%;
+
+}
+.red-watch {
+  background-image: url(images/red-clock.jpg);
+  background-position: 50% 50%;
+
+}
+.business-watch {
+  background-image: url(images/business-watch.jpg);
+  background-position: 0% 50%;
+  }

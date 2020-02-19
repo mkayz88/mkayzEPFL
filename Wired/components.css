@@ -1,0 +1,175 @@
+/****************************************
+ * Write your code in the sections below!
+ ****************************************/
+
+/* header styles */
+
+header {
+    display: flex;
+    max-width: 880px;
+    width: 100%;
+    margin: 12px auto 0;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.logo-container {
+  align-self: flex-end;
+  flex: auto;
+}
+
+.icons-container .fa {
+align-self: flex-end;
+flex: auto;
+text-align: right;
+  }
+
+nav {
+flex: auto;
+align-self: flex-end;
+}
+
+/* banner styles */
+
+.banner-container {
+  color: white;
+  max-width: 1122px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.banner-img {
+display: block;
+width: 100%;
+}
+
+.banner-title {
+background-color: #f94e4b;
+text-align: center;
+padding: 30px 0;
+}
+
+.banner-txt {
+background-color: #222324;
+padding: 70px 0;
+}
+
+.banner-title h1 {
+color: white;
+max-width: 560px;
+margin: 0 auto;
+border: 1px solid white;
+
+}
+
+.banner-txt p {
+color: white;
+max-width: 650px;
+margin: 0 auto;
+}
+/* ABOUT main content styles */
+
+.img-txt-container {
+display: flex;
+}
+
+.img-container {
+margin-right: 50px;
+
+}
+
+.txt-container {
+    margin-top: 40px;
+}
+
+.txt-container h2, h4 {
+  margin: 0;
+}
+
+.txt-container h2 {
+  color: black;
+  text-align: left;
+  font-weight: bold;
+}
+
+.txt-container p {
+  border-top: 1px solid #222342;
+  padding-top: 10px;
+  margin: 8px;
+  color: black;
+  text-align: left;
+}
+
+.txt-container h4 {
+  font-style: italic;
+  color: #939495;
+}
+
+/* HOME main content styles */
+
+
+
+/* table styles */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 5px;
+}
+
+td:first-child {
+  font-weight: bold;
+}
+
+td:last-child {
+  text-align: right;
+}
+
+/* contact styles */
+.contact-box {
+  text-align: center;
+  font-weight: bold;
+}
+
+.mail {
+  font-style: italic;
+  color: #939495;
+  border-bottom: 1px solid #939495;
+  padding-bottom: 10px;
+}
+
+
+/* footer styles */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+    background: #222324;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
