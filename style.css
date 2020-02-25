@@ -15,7 +15,6 @@ h3 {
 /* header & navigation*/
 
 header {
-
   background-color: #222324;
   display: flex;
   margin: 0 auto;
@@ -177,6 +176,7 @@ nav a:hover {
  list-style: none;
  display: flex;
  align-content: center;
+ justify-content: center;
  flex-flow: row wrap;
  padding-top: 40px;
  padding-bottom: 40px;
